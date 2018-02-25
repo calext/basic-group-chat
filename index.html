@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="shad.css"/>
+		
+		<script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+		
+		 <script src="tranz.js"></script>
+	</head>
+	<body onload="which()">
+		<div class="logmain">
+			<form onsubmit="javascript:return false">
+				<input type="text" id="in" placeholder="Enter a username"/>
+				<input type="submit" id="sub" onclick="auth()" value="Submit"/>
+			</form>
+		</div>
+		
+		
+		<div class="inmain">
+			<header> 
+				<h4 class="hw"></h4> 
+				<button id="logout" onclick="logout()"> Logout </button>
+			</header>
+			<main id="disp">
+				
+			</main>
+			<footer> 
+				<form onsubmit="javascript:return false">
+					<input type="text" id="inq"/>
+					<input type="submit" id="sube" onclick="triggerItem()" value="Submit"/>
+				</form>
+			</footer>
+			<!--<script>
+				Pusher.logToConsole = true;
+		var pusher = new Pusher('e6a821f2402fdaa0e1ff', {
+			authEndpoint: 'auth.php',
+			cluster: 'eu',
+			encrypted: true
+		});
+
+		var channel = pusher.subscribe('private-mychannel');
+		channel.bind('myevent', function(data) {
+			var dat= JSON.parse(localStorage.getItem('dat'));
+			if(!dat){
+				dat=[];
+			}
+			dat.push({name:""+data.name, idea:""+data.idea});
+			localStorage.setItem('dat', JSON.stringify(dat));
+			location.href="";
+		});
+			</script> -->
+		</div>
+	</body>
+</html>

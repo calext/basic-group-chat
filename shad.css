@@ -1,0 +1,121 @@
+.logmain form{
+			display:flex;
+			display:webkit-flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			height:100%;
+			}
+			#in{
+			font-size:15px; font-weight:bold; text-align:center; color:rgb(112,183,254); width:50%; padding:10px; border-radius:20px; outline:none; border: 1px solid rgba(112,183,254, .9);
+			}
+			#in:hover{
+				box-shadow: inset 0 0 2px 5px rgba(112,183,254, .3);
+			}
+			#in:focus{
+				box-shadow: inset 0 0 2px 5px rgba(112,183,254, .3);
+			}
+			#sub{
+				font-size:15px; border-radius:10px 10px 10px 10px; color:white; padding:10px; outline:none; cursor:loading; background:rgb(23, 111,112); 
+			}
+			#sub:active{
+			transform: translateY(10px);
+			}
+			
+			*{ margin:0; padding:0;}
+		body{
+			overflow:hidden;
+		}
+		.inmain{
+			display:flex;
+			display:webkit-flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+			width:100%;
+			height:100%;
+		}
+		header{
+			flex:1; border-bottom: 1px solid rgba(0,0,0, .7);
+			width:100%;
+			height:100%;
+			overflow:hidden;
+			display:flex;
+			display:webkit-flex;
+			justify-content:flex-start;
+			align-items:center;
+		}
+		.inmain main{
+			flex:8; /* outline: 1px solid blue; */
+			width:100%;
+			height:100%;
+			overflow:auto;
+		}
+		main div{
+			margin-top:10px;
+		}
+		footer{
+			flex:1; border-top: 1px solid rgb(23, 111,112);
+			width:100%;
+			height:100%;
+			display:flex;
+			display:webkit-flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.art1{
+			width:80%; margin-top:10px; height:auto; padding:5px; background:rgba(66, 68, 78, .8); color: rgb(255, 255, 255);  border-radius:0px 10px 0px 10px;
+		}
+		#art1:first-child{
+			margin-top:0;
+		}
+		.art1 span{
+			color:pink;
+		}
+		.art2{
+			width:80%; height:auto; padding:5px; background:rgba(66, 68, 78, .8); color: rgb(255, 255, 255);  border-radius:10px 0px 10px 0px;
+		}
+		
+		
+		footer form{
+			display:flex;
+			display:webkit-flex;
+			justify-content:center;
+			align-items:center;
+			width:100%; height:100%;
+			
+			}
+			footer form #inq{ flex:8; height:100%;
+			font-size:15px; font-weight:bold; text-align:center; 
+			color:rgb(112,183,254); padding:10px; border:none; 
+			outline:none; 
+			/*border-radius:20px;  border: 1px solid rgba(112,183,254, .9); */
+			}
+			footer #inq:hover{
+				box-shadow: inset 0 0 2px 1px rgba(112,183,254, .3);
+			}
+			footer #inq:focus{
+				box-shadow: inset 0 0 2px 1px rgba(112,183,254, .3);
+			}
+			footer form #sube{ flex:2; height:100%;
+				font-size:15px; border:none; /*border-radius:10px 10px 10px 10px;*/ color:white; padding:10px; outline:none; background:rgb(23, 111,112); 
+			}
+			footer #sube:active{
+			transform: translateY(-10px);
+			}
+			
+			header h4{
+				width:60px; padding:5px; height:100%;  font-weight: bolder; overflow:hidden;
+				 transition: all 2s; overflow:hidden; box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			}
+			header h4:hover{
+				width:auto; color: white; background:rgba(0,0,0, .7);
+			}
+			header button{
+			 color:pink; background:rgba(0,0,0, .7);
+			border:none; padding:10px; height:100%; border-left:1px solid rgba(0,0,0, .1);
+			}
+			header button:hover{
+				color:red;
+			}
