@@ -1,7 +1,7 @@
 
 <?php
 //include 'Pusher.php'
-require './vendor/autoload.php';
+require '/vendor/autoload.php';
 
  $options = array(
     'cluster' => 'eu',
