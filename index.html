@@ -14,7 +14,6 @@
 			</form>
 		</div>
 		
-		
 		<div class="inmain">
 			<header> 
 				<h4 class="hw"></h4> 
@@ -29,25 +28,6 @@
 					<input type="submit" id="sube" onclick="triggerItem()" value="Submit"/>
 				</form>
 			</footer>
-			<!--<script>
-				Pusher.logToConsole = true;
-		var pusher = new Pusher('e6a821f2402fdaa0e1ff', {
-			authEndpoint: 'auth.php',
-			cluster: 'eu',
-			encrypted: true
-		});
-
-		var channel = pusher.subscribe('private-mychannel');
-		channel.bind('myevent', function(data) {
-			var dat= JSON.parse(localStorage.getItem('dat'));
-			if(!dat){
-				dat=[];
-			}
-			dat.push({name:""+data.name, idea:""+data.idea});
-			localStorage.setItem('dat', JSON.stringify(dat));
-			location.href="";
-		});
-			</script> -->
 		</div>
 	</body>
 </html>
