@@ -1,7 +1,7 @@
 
 <?php
 //include 'Pusher.php'
-require 'https://github.com/calext/gchat/blob/master/vendor/autoload.php';
+require './vendor/autoload.php';
 
  $options = array(
     'cluster' => 'eu',
